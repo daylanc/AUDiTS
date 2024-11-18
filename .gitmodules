@@ -1,0 +1,3 @@
+[submodule "src/clearpath_simulator"]
+	path = src/clearpath_simulator
+	url = https://github.com/daylanc/clearpath_simulator.git
