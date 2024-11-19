@@ -7,7 +7,7 @@
 ```
 sudo apt install ros-humble-clearpath-desktop
 ```
-4. Gazebot Ignition Fortress
+4. Gazebo Ignition Fortress
 ```
 sudo apt-get update && sudo apt-get install wget
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
