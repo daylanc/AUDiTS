@@ -1,4 +1,5 @@
 # Autonomous UGV Digital Twin Simulation (AUDiTS)
+This project uses the [Clearpath Robotics Simulator](https://docs.clearpathrobotics.com/docs/ros/tutorials/simulator/overview), ROS2 and Gazebo to simulate a Husky Unmanned Ground Vehicle (UGV) and test waypoint navigation, target tracking, and path following algorithms. Refer to [wiki](https://github.com/daylanc/AUDiTS/wiki#introduction) to modify simulation environment and additional information on running scripts.
 
 ## Dependencies
 1. [Ubuntu 22.04](https://releases.ubuntu.com/jammy/)
