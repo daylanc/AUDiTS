@@ -70,4 +70,14 @@ ros2 launch clearpath_gz simulation.launch.py rviz:=true world:=empty_world
   - Change world file: ``` world:=my_world ```
   - robot.yaml file path: ``` setup_path:=$HOME/setup/path/ ```
   
- 
+ ## Control Rover
+ - In "Teleop" window, change "Topic" to ```/a200_0000/cmd_vel```
+ - Use buttons in "Teleop" window or switch to "KEYBOARD" to control rover
+ - Test velocity command can be executed from terminal:
+ ```
+ ros2 topic pub /a200_0000/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+ ```
+ - Verify data is being published to ```/a200_0000/cmd_vel``` topic:
+ ```
+ ros2 topic echo /a200_0000/cmd_vel
+ ```
